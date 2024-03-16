@@ -1,0 +1,124 @@
+{
+
+"config":{
+    "ThemeColor":"#F57A00",
+   
+    "HudConfig":{
+        "HudThemeColor":"#F57A00",
+        "HudLogo":"1203_hud_logo.png",
+    }
+
+},
+"body":{
+     "MainTabBottomBar":{
+        "tab1":{
+            "tabIcon_logo_Normal":"1203_home_normal.png",
+            "tabIcon_logo_Selected":"1203_home_selected.png",
+            "tabIcon_titleColor_Normal":"#949499",
+            "tabIcon_titleColor_Selected":"#F57A00",
+        },
+
+        "tab2":{
+            "tabIcon_logo_Normal":"1203_finance_normal.png",
+            "tabIcon_logo_Selected":"1203_finance_selected.png",
+            "tabIcon_titleColor_Normal":"#949499",
+            "tabIcon_titleColor_Selected":"#F57A00",
+        },
+        "tab3":{
+            "tabIcon_logo_Normal":"1203_life_normal.png",
+            "tabIcon_logo_Selected":"1203_life_selected.png",
+            "tabIcon_titleColor_Normal":"#949499",
+            "tabIcon_titleColor_Selected":"#F57A00",
+        },
+        "tab4":{
+            "tabIcon_logo_Normal":"1203_mine_normal.png",
+            "tabIcon_logo_Selected":"1203_mine_selected.png",
+            "tabIcon_titleColor_Normal":"#949499",
+            "tabIcon_titleColor_Selected":"#F57A00",
+        }
+ },
+ "loginPage":{
+    "topSection":{
+         "backgroundImage_login":"1203_top_bg_login.png",
+         "backgroundImage_unlogin":"1203_top_bg_unlogin.png",
+         "color_normal":"#BDBDBD",
+         "color_heightlighted":"#000000",
+    },
+    "centerSection":{
+         "titleColor_CoreBtn":"#FFFFFF",
+         "titleColor_otherBtn":"#CD262A",
+         "bgColor_CoreBtn":"#E92328",
+         "bgColor_otherBtn":"#FFFFFF",
+         "boderLineColor_otherBtn":"#CD262A",
+    },
+    "bottomSection":{
+         "titleColor_aggreementDesc":"#949499",
+         "titleColor_aggreementEntry":"#CD262A",
+         "backgroundImage":"1203_bottomSection_bg.png",
+         "logo_otherHandlerBtns":{
+             "wechatLoginIcon":"1203_wechat_OAuth.png",
+             "appleLoginIcon":"1203_apple_OAuth.png",
+             "fingerPrintLoginIcon":"1203_fingerPrintLogin.png",
+             "gestureLoginIcon":"1203_gestureLogin.png",
+             "faceLoginIcon":"1203_faceLogin.png",
+         },
+    },
+ },
+  "oAuthLoginPage":{
+     "titleColor_CoreBtn":"#FFFFFF",
+     "bgColor_CoreBtn":"#E92328",
+     "titleColor_otherBtn":"#CD262A",
+     "bgColor_otherBtn":"#0FFFFFF",
+     "bindMobilePage":{
+         "logo_topSection":"1203_oAuthHeaderLogo.png",
+     }
+
+ },
+ "registerPage":{
+      "titleColor_CoreBtn":"#FFFFFF",
+     "bgColor_CoreBtn":"#E92328",
+     "titleColor_otherBtn":"#CD262A",
+     "bgColor_otherBtn":"#FFFFFF",
+     "logo_checkBox_selected":"checkBox_selected.png",
+     "logo_checkBox_unselected":"checkBox_normal.png",
+     "registerResultPage":{
+         "logo_register_Success":"1203_res_successed.png",
+         "logo_register_Fail":"1203_res_fail.png",
+     },
+     "registerIdentityAuthPage":{
+         "logo_Identity_Front":"1203_Identity_Front.png",
+         "logo_Identity_Back":"1203_Identity_Back.png",
+         "logo_faceVertify":"1203_faceVertify.png",
+     }
+ },
+ "pwdPage":{
+          "titleColor_CoreBtn":"#FFFFFF",
+          "bgColor_CoreBtn":"#E92328",
+         "logo_setpwd_success":"1203_res_successed.png",
+         "logo_setpwd_fail":"1203_res_fail.png",
+ },
+ "minePage":{
+    "headerSection":{
+        "backgroundImage":"1203_mine_headerSection_bg.png",
+        "normal_logo_unlogin":"1203_mine_unlogin.png",
+        "normal_logo_login":"1203_mine_login.png",
+        "logo_mine_vip_logo":"1203_mine_vip_logo.png",
+        "logo_mine_vip_bg":"1203_mine_vip_bg.png",
+        "heavy_color":"#FFFFFF",
+        "light_color":"#FFFFFF",
+    },
+    "navigationBar":{
+        "logo_logout":"1203_logout.png",
+        "logo_messageCenter":"1203_messageCenter.png",
+        "logo_CustomerService":"1203_customerService.png",
+        "logo_Setting":"1203_setting.png",
+    },
+    "assetsInfoCard":{
+        "heavy_color":"#1A1A1A",
+        "light_color":"#949499",
+    }
+
+ },
+}
+
+}
